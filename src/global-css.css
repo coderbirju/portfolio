@@ -28,6 +28,11 @@
   .App-link {
     color: #61dafb;
   }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
   
   .App-body {
     background-color: #282c34;
