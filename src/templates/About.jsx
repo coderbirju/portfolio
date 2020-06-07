@@ -1,28 +1,21 @@
 import React from 'react';
 import '../global-css.css';
-import HeadNav from './header';
 import { Layout } from 'antd';
-const { Header,Content } = Layout;
+const { Content } = Layout;
 
 class About extends React.Component {
   render() {
     return (
       <div className="App">
         <Layout>
-          <Header>
-            <HeadNav />
-          </Header>
           <Content>
-            <div className="App">
-              <body className="App App-body">
-                  <h3> About ME </h3>
-                  <p> AVOVOJIVAIV </p>
-              </body>
+            <div className="App App-body">
+                <h3> About ME </h3>
+                <p> AVOVOJIVAIV </p>
             </div>
           </Content>
         </Layout>
       </div>
-      
     );
   }
 }

@@ -1,0 +1,33 @@
+{
+    "education": {
+        "school": "Kendriya Vidyalaya Malleshwaram",
+        "school_tenth_CGPA": "10",
+        "school_twelveth_percentage": "89",
+        "UG": "JSS Academy of Technical Education Bangalore",
+        "UG_CGPA": "7.1"
+    },
+    
+    "profession": [{
+        "company": "Unfold Consulting",
+        "role": "Web development Intern",
+        "tech_stack": [ "php", "javascript", "html", "css" ],
+        "duration": { "year": 2018, "months": 3 },
+        "conpany_link": "https://unfold-consulting.com/",
+        "curr_working": false
+    }, 
+    {
+        "company": "Cybrilla Technologies",
+        "role": "Full stack Web developer",
+        "tech_stack": [ "NodeJs", "javascript", "ReactJs", "Redux", "TypeScript" ],
+        "duration": { "year": 2019, "months": 12 },
+        "conpany_link": "https://www.cybrilla.com/",
+        "curr_working": true
+    }],
+
+    "interests": {
+        "tech": ["React", "NodeJs", "Data Structures"],
+        "hobbies": ["Gaming", "Stand-up Comedy", "Podcasting", "MMA", "Cricket", "Football", "Hiking", "Bike Rides"],
+        "blogs": [],
+        "articles": []
+    }
+}

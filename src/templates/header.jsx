@@ -22,12 +22,12 @@ class HeadNav extends React.Component {
         <div className="App-header">
             <Menu  onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
                 <Menu.Item key="mail" icon={<MailOutlined />}>
-                    <Link to="/"> Home </Link>
+                    <Link to='/'> Home </Link>
                 </Menu.Item>
-                <Menu.Item key="app" icon={<AppstoreOutlined />}>
-                    <Link to="/About"> About </Link>
+                <Menu.Item key="about" icon={<AppstoreOutlined />}>
+                    <Link to='/About'> About </Link>
                 </Menu.Item>
-                <Menu.Item key="app" icon={<GithubFilled />}>
+                <Menu.Item key="git" icon={<GithubFilled />}>
                     <a href="https://github.com/coderbirju" target="_blank" rel="noopener noreferrer">
                         Projects
                     </a>
