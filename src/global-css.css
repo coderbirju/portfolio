@@ -17,7 +17,7 @@
     background-color: #eef0f5;
     min-width: 100%;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: rgb(90, 31, 31);
   }
   
   
@@ -39,6 +39,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding-top: 10vh;
   }
   @keyframes App-logo-spin {
     from {
