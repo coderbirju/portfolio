@@ -6,20 +6,22 @@ import {
 } from "react-router-dom";
 import Homepage from './templates/Homepage';
 import About from './templates/About';
+import HeadNav from './templates/header';
 
 
 
 export default function Routes() {
   return (
     <Router>  
-      <Switch>
-          <Route path="/About">
-              <About/>
-          </Route>
-          <Route path="/">
-              <Homepage />
-          </Route>
-      </Switch>
+      <div>
+        <HeadNav/>
+        <div>
+          <Switch>
+              <Route path="/About" component={About}/>
+              <Route path="/" component={Homepage}/>
+          </Switch>
+        </div>
+      </div>
     </Router>
   );
 }
