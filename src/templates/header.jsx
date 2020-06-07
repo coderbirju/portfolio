@@ -3,10 +3,9 @@ import '../global-css.css';
 import 'antd/dist/antd.css';
 import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
-const { SubMenu } = Menu;
+import { MailOutlined, AppstoreOutlined, GithubFilled } from '@ant-design/icons';
 
-class Header extends React.Component {
+class HeadNav extends React.Component {
   state = {
     current: 'mail',
   };
@@ -28,12 +27,14 @@ class Header extends React.Component {
                 <Menu.Item key="app" icon={<AppstoreOutlined />}>
                     <Link to="/About"> About </Link>
                 </Menu.Item>
-                <Menu.Item key="app" icon={<AppstoreOutlined />}>
-                    <Link to="/About"> About </Link>
+                <Menu.Item key="app" icon={<GithubFilled />}>
+                    <a href="https://github.com/coderbirju" target="_blank" rel="noopener noreferrer">
+                        Projects
+                    </a>
                 </Menu.Item>
                 
                 <Menu.Item key="alipay">
-                <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/coderbirju" target="_blank" rel="noopener noreferrer">
                     Navigation Four - Link
                 </a>
                 </Menu.Item>
@@ -43,4 +44,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default HeadNav;
