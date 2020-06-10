@@ -17,7 +17,7 @@ export default function Routes() {
         <HeadNav/>
         <div>
           <Switch>
-              <Route path="/About" component={About}/>
+              <Route path="/About" > <About/> </Route>
               <Route path="/" component={Homepage}/>
           </Switch>
         </div>
