@@ -25,17 +25,15 @@ class HeadNav extends React.Component {
                     <Link to='/'> Home </Link>
                 </Menu.Item>
                 <Menu.Item key="about" icon={<AppstoreOutlined />}>
-                    <Link to='/About'> About </Link>
+                    <Link to='/about'> About </Link>
                 </Menu.Item>
                 <Menu.Item key="git" icon={<GithubFilled />}>
-                    <a href="https://github.com/coderbirju" target="_blank" rel="noopener noreferrer">
-                        Projects
-                    </a>
+                <Link to='/projects'> Projects </Link>
                 </Menu.Item>
                 
                 <Menu.Item key="alipay">
-                <a href="https://github.com/coderbirju" target="_blank" rel="noopener noreferrer">
-                    Navigation Four - Link
+                <a href="https://powerful-mesa-36430.herokuapp.com/" target="_self" rel="noopener noreferrer">
+                    CampChamp
                 </a>
                 </Menu.Item>
             </Menu>

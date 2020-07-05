@@ -7,8 +7,7 @@ import {
 import Homepage from './templates/Homepage';
 import About from './templates/About';
 import HeadNav from './templates/header';
-
-
+import Project from './templates/Projects';
 
 export default function Routes() {
   return (
@@ -17,7 +16,8 @@ export default function Routes() {
         <HeadNav/>
         <div>
           <Switch>
-              <Route path="/About" > <About/> </Route>
+              <Route path="/about" > <About/> </Route>
+              <Route path="/projects" component={Project} />
               <Route path="/" component={Homepage}/>
           </Switch>
         </div>
