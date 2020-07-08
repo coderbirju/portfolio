@@ -17,5 +17,5 @@ export const getUser = async () => {
 }
 
 export const getUserRepos = async () => {
-    return await axios.get(`https://api.github.com/users/${profileName}/repos?per_page=10&sort=created:asc&client_id=${githubClientID}&client_secret=${githubClientSecret}`);
+    return await axios.get(`https://api.github.com/users/${profileName}/repos?per_page=20&sort=created:asc&client_id=${githubClientID}&client_secret=${githubClientSecret}`);
 }

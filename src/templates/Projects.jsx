@@ -48,10 +48,13 @@ class Project extends React.Component {
         {
           return (
             <Layout>
+              <div className='align-Content'>
+                <img className='profile-img' src='https://avatars2.githubusercontent.com/u/47769978?v=4' alt='avatar' />
+              </div>
               { repoData.map(data => 
-                <div >
+                <div>
                   <Content> 
-                    <RepoItem repoData={data} />
+                    <RepoItem key={data.id} repoData={data} />
                   </Content>
                 </div>
               )}
